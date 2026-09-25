@@ -169,3 +169,31 @@
     padding: 12px 14px;
   }
 }
+
+/* Mobile overflow correction */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+@media (max-width: 700px) {
+  .site-header {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .site-header .logo {
+    max-width: calc(100% - 64px);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .site-nav {
+    right: 0;
+    max-width: calc(100vw - 36px);
+    box-sizing: border-box;
+  }
+  .hero-locked,
+  .hero-locked .hero-art,
+  .hero-locked .hero-art img,
+  .hero-locked .hero-overlay {
+    max-width: 100vw;
+  }
+}
