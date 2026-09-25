@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The connected story — chapters from Flicker of Light.">
+<title>Stories | Flicker of Light</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.story-list {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 110px 24px 120px;
+}
+.story-list .intro {
+  max-width: 680px;
+  margin-bottom: 70px;
+}
+.story-list h1 {
+  margin: 14px 0 18px;
+}
+.story-list .lead {
+  max-width: 620px;
+  margin: 0;
+}
+.chapter-list {
+  border-top: 1px solid rgba(240,232,216,.16);
+}
+.chapter-item {
+  display: grid;
+  grid-template-columns: 90px 1fr auto;
+  gap: 28px;
+  align-items: center;
+  padding: 34px 0;
+  border-bottom: 1px solid rgba(240,232,216,.16);
+  text-decoration: none;
+}
+.chapter-number {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  letter-spacing: .14em;
+  color: #bda986;
+}
+.chapter-title {
+  color: #f2eadb;
+  font-family: Georgia, serif;
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 400;
+}
+.chapter-meta {
+  margin-top: 8px;
+  color: #9d958b;
+  font-size: 13px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.chapter-arrow {
+  color: #c98a72;
+  font-size: 22px;
+}
+.chapter-item.locked {
+  opacity: .58;
+  cursor: default;
+}
+@media (max-width: 640px) {
+  .story-list { padding: 80px 22px 90px; }
+  .chapter-item { grid-template-columns: 58px 1fr auto; gap: 16px; padding: 28px 0; }
+  .chapter-number { font-size: 12px; }
+  .chapter-title { font-size: 29px; }
+}
+</style>
+</head>
+<body>
+<header class="nav simple">
+  <a class="logo" href="index.html">flicker of light <span>♡</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a class="active" href="stories.html">Stories</a>
+    <a href="index.html#quotes">Quotes</a>
+    <a href="index.html#about">About</a>
+  </nav>
+</header>
+
+<main class="story-list">
+  <div class="intro">
+    <p class="eyebrow">THE CONNECTED STORY</p>
+    <h1>The Story</h1>
+    <p class="lead">Some stories begin with a simple wish. Others begin with the moment we realize that wish was never as simple as it seemed.</p>
+  </div>
+
+  <div class="chapter-list">
+    <a class="chapter-item" href="chapter-one.html">
+      <div class="chapter-number">01</div>
+      <div>
+        <div class="chapter-title">The Empty Hand</div>
+        <div class="chapter-meta">Chapter One · Read the chapter</div>
+      </div>
+      <div class="chapter-arrow">→</div>
+    </a>
+
+    <div class="chapter-item locked">
+      <div class="chapter-number">02</div>
+      <div>
+        <div class="chapter-title">Coming Soon</div>
+        <div class="chapter-meta">Chapter Two · The story continues</div>
+      </div>
+      <div class="chapter-arrow">—</div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <span>flicker of light ♡</span>
+  <span>Stories written for the moments that stay.</span>
+</footer>
+</body>
+</html>
