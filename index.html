@@ -10,7 +10,7 @@
 <body>
 <header class="nav">
   <a class="logo" href="index.html">flicker of light <span>♡</span></a>
-  <nav>
+  <nav aria-label="Main navigation">
     <a class="active" href="index.html">Home</a>
     <a href="chapter-one.html">Stories</a>
     <a href="#quotes">Quotes</a>
@@ -21,31 +21,24 @@
 
 <main>
 <section class="hero">
-  <img class="hero-image" src="book-cover-only.jpg" alt="Flicker of Light book scene beside a window at dusk">
-  <div class="hero-shade"></div>
+  <div class="cover-panel">
+    <p class="cover-label">THE BOOK</p>
+    <img class="book-cover" src="book-cover-only.jpg" alt="Flicker of Light book cover">
+  </div>
   <div class="hero-content">
     <p class="eyebrow">WELCOME TO</p>
     <h1>flicker of light <span>♡</span></h1>
     <p class="tagline">WORDS FOR THE ONES WHO STILL FEEL</p>
     <div class="rule"></div>
-    <p class="hero-copy">A collection of stories, fragments and quotes<br class="desktop"> for the moments we could not explain,<br class="desktop"> the people we could not keep,<br class="desktop"> and the parts of ourselves we found along the way.</p>
+    <p class="hero-copy">A collection of stories, fragments and quotes for the moments we could not explain, the people we could not keep, and the parts of ourselves we found along the way.</p>
     <a class="cta" href="chapter-one.html">READ THE STORY <span>→</span></a>
   </div>
 </section>
 
 <section class="three-links">
-  <a href="chapter-one.html">
-    <div class="icon">♧</div><h2>STORIES</h2>
-    <p>A connected story,<br> written in chapters.</p>
-  </a>
-  <a href="#quotes">
-    <div class="icon">✧</div><h2>QUOTES</h2>
-    <p>Fragments for the<br> in-between moments.</p>
-  </a>
-  <a href="#about">
-    <div class="icon">♙</div><h2>ABOUT</h2>
-    <p>The mind behind<br> the words.</p>
-  </a>
+  <a href="chapter-one.html"><div class="icon">♧</div><h2>STORIES</h2><p>A connected story,<br> written in chapters.</p></a>
+  <a href="#quotes"><div class="icon">✧</div><h2>QUOTES</h2><p>Fragments for the<br> in-between moments.</p></a>
+  <a href="#about"><div class="icon">♙</div><h2>ABOUT</h2><p>The mind behind<br> the words.</p></a>
 </section>
 
 <section id="quotes" class="featured">
@@ -53,18 +46,9 @@
   <h2>Stories &amp; Quotes</h2>
   <p class="sub">FOR THE ONES WHO STILL FEEL</p>
   <div class="cards">
-    <a class="card story-card" href="chapter-one.html">
-      <div class="card-image"></div>
-      <div class="card-text"><strong>CHAPTER ONE</strong><small>THE BEGINNING OF A LONGER STORY</small><span>→</span></div>
-    </a>
-    <a class="card quote-card" href="#quotes">
-      <div class="card-image"></div>
-      <div class="card-text"><strong>QUOTES</strong><small>BITS OF FEELINGS WE ALL CARRY</small><span>→</span></div>
-    </a>
-    <a class="card about-card" href="#about">
-      <div class="card-image"></div>
-      <div class="card-text"><strong>ABOUT</strong><small>THE WRITER BEHIND FLICKER OF LIGHT</small><span>→</span></div>
-    </a>
+    <a class="card story-card" href="chapter-one.html"><div class="card-image"></div><div class="card-text"><strong>CHAPTER ONE</strong><small>THE BEGINNING OF A LONGER STORY</small><span>→</span></div></a>
+    <a class="card quote-card" href="#quotes"><div class="card-image"></div><div class="card-text"><strong>QUOTES</strong><small>BITS OF FEELINGS WE ALL CARRY</small><span>→</span></div></a>
+    <a class="card about-card" href="#about"><div class="card-image"></div><div class="card-text"><strong>ABOUT</strong><small>THE WRITER BEHIND FLICKER OF LIGHT</small><span>→</span></div></a>
   </div>
   <div class="linger">Some stories are meant to linger.</div>
 </section>
@@ -76,9 +60,6 @@
 </section>
 </main>
 
-<footer>
-  <span>flicker of light ♡</span>
-  <span>Stories written for the moments that stay.</span>
-</footer>
+<footer><span>flicker of light ♡</span><span>Stories written for the moments that stay.</span></footer>
 </body>
 </html>
