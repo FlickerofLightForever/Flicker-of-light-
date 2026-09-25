@@ -121,3 +121,51 @@
 .instagram-button span {
   font-size: 1.1rem;
 }
+
+/* Homepage mobile navigation fix */
+.menu-toggle {
+  display: none;
+}
+@media (max-width: 700px) {
+  .site-header {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-toggle {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid rgba(214,173,105,.35);
+    border-radius: 50%;
+    background: rgba(8,8,8,.75);
+    color: inherit;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+  .site-nav {
+    display: none !important;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 190px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(8,8,8,.97);
+    border: 1px solid rgba(214,173,105,.22);
+    box-shadow: 0 16px 35px rgba(0,0,0,.45);
+  }
+  .site-nav.open {
+    display: flex !important;
+  }
+  .site-nav a {
+    display: block;
+    padding: 12px 14px;
+  }
+}
