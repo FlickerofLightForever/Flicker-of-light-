@@ -1,2 +1,2 @@
-Step 13 — Chapter One ending polish
-Adds a quiet chapter-ending transition after the locked Chapter One text. No chapter prose was changed.
+Step 14 — Stories page polish
+Only the Chapter Two “Coming Soon” entry was refined to visually match the new Chapter One ending. All other pages and content remain unchanged.

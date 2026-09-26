@@ -54,13 +54,24 @@
   letter-spacing: .08em;
   text-transform: uppercase;
 }
+.chapter-note {
+  margin-top: 12px;
+  color: #8f887f;
+  font: italic 16px/1.4 Georgia, serif;
+}
 .chapter-arrow {
   color: #c98a72;
   font-size: 22px;
 }
 .chapter-item.locked {
-  opacity: .58;
+  opacity: .68;
   cursor: default;
+}
+.chapter-item.locked .chapter-title {
+  color: #c9bda9;
+}
+.chapter-item.locked .chapter-arrow {
+  color: #81796e;
 }
 @media (max-width: 640px) {
   .story-list { padding: 80px 22px 90px; }
@@ -103,8 +114,9 @@
     <div class="chapter-item locked">
       <div class="chapter-number">02</div>
       <div>
-        <div class="chapter-title">Coming Soon</div>
-        <div class="chapter-meta">Chapter Two · The story continues</div>
+        <div class="chapter-title">Chapter Two</div>
+        <div class="chapter-meta">Coming Soon · The story continues</div>
+        <div class="chapter-note">The road has only just begun.</div>
       </div>
       <div class="chapter-arrow">—</div>
     </div>
