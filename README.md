@@ -1,2 +1,2 @@
-Flicker of Light — Step 12
-Homepage visual hierarchy polish only. No page content, links, artwork, or story text changed.
+Step 13 — Chapter One ending polish
+Adds a quiet chapter-ending transition after the locked Chapter One text. No chapter prose was changed.
