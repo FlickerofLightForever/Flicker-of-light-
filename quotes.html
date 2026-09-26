@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quotes — Flicker of Light</title>
 <link rel="stylesheet" href="style.css">
+<style>
+.quote-archive{display:grid;gap:0;}
+.quote-card-large{padding:3.2rem 0;border-top:1px solid rgba(226,210,177,.16);background:transparent;}
+.quote-card-large:first-child{border-top:0;}
+.quote-label{margin:0 0 1.2rem;font-size:.68rem;letter-spacing:.28em;text-transform:uppercase;color:#bca77d;}
+.quote-card-large blockquote{margin:0;max-width:900px;font-family:Georgia,serif;font-size:clamp(1.55rem,3vw,2.35rem);line-height:1.45;color:#eee6d8;font-style:italic;}
+@media(max-width:700px){.quote-card-large{padding:2.5rem 0}.quote-card-large blockquote{font-size:1.48rem;line-height:1.55}.quote-label{font-size:.62rem}}
+.quote-archive-intro{max-width:620px;margin:1rem auto 0;color:#9f988e;font-size:.95rem;line-height:1.7;}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -24,25 +33,57 @@
     <p class="eyebrow">WORDS &amp; FRAGMENTS</p>
     <h1>Quotes</h1>
     <p>Words that were never meant to be loud.</p>
+    <p class="quote-archive-intro">A growing collection of the words that stayed long enough to become stories.</p>
   </section>
 
-  <section class="quote-list">
-    <article class="quote-card">
-      <p class="quote-mark">“</p>
-      <blockquote>Some wishes are easier to make than to live with.</blockquote>
-      <p class="quote-note">A thought about the wishes we make before understanding what they ask of us.</p>
+  <section class="quote-list quote-archive">
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">WISHES</p>
+      <blockquote>“Some wishes are easier to make than to live with.”</blockquote>
     </article>
-
-    <article class="quote-card">
-      <p class="quote-mark">“</p>
-      <blockquote>Forgetting was never the hardest part. Living with the memories was.</blockquote>
-      <p class="quote-note">A few words about what remains after someone leaves.</p>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">MEMORIES</p>
+      <blockquote>“Forgetting was never the hardest part. Living with the memories was.”</blockquote>
     </article>
-
-    <article class="quote-card">
-      <p class="quote-mark">“</p>
-      <blockquote>It was indeed foolish to touch the moon while you were standing on the earth.</blockquote>
-      <p class="quote-note">A thought about loving something that was never within reach.</p>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">THE MOON</p>
+      <blockquote>“It was indeed foolish to touch the moon while you were standing on the earth.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">THE JOURNEY</p>
+      <blockquote>“Seems I have farther to walk, for I believed you were the last soul I’d meet before my journey came to rest. I was wrong.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">THE BOOK</p>
+      <blockquote>“She was a book I wrote my story in, but she chose a shiny cover to cover the pages I had written.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">THE RAIN</p>
+      <blockquote>“My tears reached the earth before the rain did. The sky asked, “Are you okay?” I smiled… and heaven lowered itself to embrace me.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">SEASONS</p>
+      <blockquote>“If autumn takes your leaves, I’ll become your winter and cover your emptiness with snow.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">HEAVEN & EARTH</p>
+      <blockquote>“Tell me, was I the fool who fell in love with a girl from the heavens while I belonged to the earth?”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">A HAND THAT WAITED</p>
+      <blockquote>“Take this hand that has waited only for you, and I’ll show you a world even love has never dreamed of.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">THE BATTLE WITHIN</p>
+      <blockquote>“I fought the world while fighting a battle within myself, yet I still fought yours beside you. It was never a distraction from my pain; it was simply the love I carried for you.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">THE VOID</p>
+      <blockquote>“If I ever disappear into the void, it won’t be because I chose emptiness. It’ll be because I’m tired of a world that mistakes kindness for something to use.”</blockquote>
+    </article>
+    <article class="quote-card quote-card-large">
+      <p class="quote-label">THE MIRROR</p>
+      <blockquote>“Even the mirror lies if you don’t know where to look.”</blockquote>
     </article>
   </section>
 </main>

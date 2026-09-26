@@ -1,2 +1,4 @@
-Step 14 — Stories page polish
-Only the Chapter Two “Coming Soon” entry was refined to visually match the new Chapter One ending. All other pages and content remain unchanged.
+Step 15 — Quotes page archive
+
+Expanded the Quotes page with the user's previously written/refined quotes available in the current project context. Existing quote wording is preserved; no new quote text was invented.
+Only quotes.html was changed. All other site files are preserved from Step 14.
