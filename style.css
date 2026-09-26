@@ -219,3 +219,44 @@ html, body {
 .featured-quote-link span {
   font-size: 1rem;
 }
+
+/* Step 18 — Quotes archive back-to-top control */
+.back-to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 24px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(214, 184, 120, 0.38);
+  border-radius: 50%;
+  background: rgba(10, 9, 8, 0.88);
+  color: #d8c59e;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity .25s ease, transform .25s ease, visibility .25s ease;
+  z-index: 20;
+}
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.back-to-top:focus-visible {
+  outline: 1px solid #d8c59e;
+  outline-offset: 3px;
+}
+@media (max-width: 700px) {
+  .back-to-top {
+    right: 18px;
+    bottom: 18px;
+    width: 42px;
+    height: 42px;
+  }
+}
