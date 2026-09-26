@@ -99,6 +99,15 @@
   font-size: 1.35rem;
   font-style: italic;
 }
+/* Step 19 — Instagram bridge */
+.instagram-bridge {
+  margin: 34px auto 0 !important;
+  max-width: 520px;
+  font-size: .98rem;
+  font-style: italic;
+  opacity: .78;
+}
+
 .instagram-button {
   display: inline-flex;
   align-items: center;
