@@ -71,13 +71,15 @@
 </style>
 </head>
 <body>
-<header class="nav simple">
-  <a class="logo" href="index.html">flicker of light <span>♡</span></a>
-  <nav>
+<header class="site-header">
+  <a class="logo" href="index.html">flicker of light ♡</a>
+  <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav class="site-nav" aria-label="Main navigation">
     <a href="index.html">Home</a>
     <a class="active" href="stories.html">Stories</a>
-    <a href="index.html#quotes">Quotes</a>
-    <a href="index.html#about">About</a>
+    <a href="quotes.html">Quotes</a>
+    <a href="about.html">About</a>
+    <a href="instagram.html">Instagram</a>
   </nav>
 </header>
 
@@ -113,5 +115,18 @@
   <span>flicker of light ♡</span>
   <span>Stories written for the moments that stay.</span>
 </footer>
+
+<script>
+(function () {
+  const button = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.site-nav');
+  if (!button || !nav) return;
+  button.addEventListener('click', function () {
+    const open = nav.classList.toggle('open');
+    button.setAttribute('aria-expanded', open ? 'true' : 'false');
+    button.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+  });
+})();
+</script>
 </body>
 </html>
