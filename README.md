@@ -1,1 +1,2 @@
-Step 11B — Mobile navigation consistency. Updated inner pages to use the same hamburger navigation as the homepage. No story text, imagery, or page content changed.
+Flicker of Light — Step 12
+Homepage visual hierarchy polish only. No page content, links, artwork, or story text changed.
